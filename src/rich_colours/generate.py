@@ -3,10 +3,8 @@ from rich.console import Console
 from time import sleep
 console = Console()
 
-i = 0
+# i = 0
 for colour in ANSI_COLOR_NAMES.keys():
-    if i % 10 == 0:
-        ...# take a screenshot
     console.print(f"[{colour}]The accent for this line is : {colour}")
-    sleep(0.2)
-    i += 1
+    # sleep(0.2)
+    # i += 1
